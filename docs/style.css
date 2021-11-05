@@ -1,5 +1,6 @@
 html {
   background: linear-gradient(320deg, #ff8933, #ffbf33, #91e6a7, #bec2b8);
+  /* pointer-events: none; */
 }
 .flex {
   display: flex;
