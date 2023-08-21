@@ -1,0 +1,61 @@
+.flex {
+  display: flex;
+}
+.container {
+  display: grid;
+  place-items: center;
+  margin-top: 20%;
+}
+.heading {
+  font-size: 3.2rem;
+  text-align: center;
+  font-family: monospace;
+}
+.cal {
+  border: 20px solid black;
+  padding: 10px;
+}
+input {
+  min-width: 30%;
+  height: 45px;
+  font-size: xx-large;
+  border: 1px solid rgb(14, 12, 12);
+  border-radius: 12px;
+  padding: 3px 1px;
+}
+button {
+  display: inline-block;
+  padding: 30px 40px;
+  background-color: #ebeae0;
+  /* color: #ffffff; */
+  border: 0.3px solid rgba(219, 198, 198, 0.918);
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 5px 2px;
+  font-size: x-large;
+  transition: background-color 0.3s, transform 0.3s;
+  font: bolder;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+  background-color: #bec2b8;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+button:active {
+  transform: scale(0.95);
+  background-color: #02090e;
+  color: white;
+}
+#but {
+  font-size: larger;
+  font: bolder;
+  padding: 37px;
+  height: 90px;
+  width: 95px;
+}
+.font {
+  /* font-size: xx-large; */
+  margin-right: 6px;
+}
